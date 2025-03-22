@@ -1,0 +1,10 @@
+{
+    "Artificial Intelligence": {
+        "summary": "Artificial Intelligence is a branch of computer science that focuses on creating intelligent machines.",
+        "bullets": [
+            "AI mimics human intelligence.",
+            "Machine Learning is a subset of AI.",
+            "Deep Learning is based on neural networks."
+        ]
+    }
+}

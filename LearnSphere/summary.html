@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Summary</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1>Video Summary</h1>
+    <p id="summary-text"></p>
+    <ul id="bullet-summary"></ul>
+
+    <a href="index.html" onclick="goBackToVideos(event)"><button>Back to Videos</button></a>
+
+    <script>
+        function goBackToVideos(event) {
+            event.preventDefault();  
+            window.location.href = "index.html";  
+        }
+
+        const params = new URLSearchParams(window.location.search);
+        const videoId = params.get("video_id");
+
+        if (videoId) {
+            fetch(`http://127.0.0.1:5000/summarize?video_id=${videoId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.summary && Array.isArray(data.summary)) {
+                        document.getElementById("summary-text").innerText = "Summary:";
+                        document.getElementById("bullet-summary").innerHTML = data.summary.map(point => `<li>${point}</li>`).join("");
+                    } else {
+                        document.getElementById("summary-text").innerText = "No summary available.";
+                    }
+                })
+                .catch(error => {
+                    document.getElementById("summary-text").innerText = "Error fetching summary.";
+                    console.error(error);
+                });
+        } else {
+            document.getElementById("summary-text").innerText = "No video selected.";
+        }
+    </script>
+</body>
+</html>

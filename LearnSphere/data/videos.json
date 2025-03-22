@@ -1,0 +1,174 @@
+{
+    "Machine Learning": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "30Lctm71cP68Pc7_zjQhLWFAFH8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ukzFI9rgwfU"
+            },
+            "snippet": {
+                "publishedAt": "2018-09-19T14:57:02Z",
+                "channelId": "UCsvqVGtbbyHaMoevxPAq9Fg",
+                "title": "Machine Learning | What Is Machine Learning? | Introduction To Machine Learning | 2024 | Simplilearn",
+                "description": "Artificial Intelligence Engineer (IBM) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ukzFI9rgwfU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ukzFI9rgwfU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ukzFI9rgwfU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Simplilearn",
+                "liveBroadcastContent": "none",
+                "publishTime": "2018-09-19T14:57:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iDiG-o0uF0xVubpPIAb-cIJq-FY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "i_LwzRVP7bg"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-26T16:00:28Z",
+                "channelId": "UC8butISFwT-Wl7EV0hUK0BQ",
+                "title": "Machine Learning for Everybody \u2013 Full Course",
+                "description": "Learn Machine Learning in a way that is accessible to absolute beginners. You will learn the basics of Machine Learning and how ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/i_LwzRVP7bg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/i_LwzRVP7bg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/i_LwzRVP7bg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "freeCodeCamp.org",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-26T16:00:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vxtYZ1TcwDpL9JJWv0Qj1gAsRD0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "E0Hmnixke2g"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-17T08:57:32Z",
+                "channelId": "UCktMIWomeuj4pwvBb-OBwMw",
+                "title": "All Machine Learning algorithms explained in 17 min",
+                "description": "All Machine Learning algorithms intuitively explained in 17 min ######################################### I just started ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/E0Hmnixke2g/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/E0Hmnixke2g/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/E0Hmnixke2g/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Infinite Codes",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-17T08:57:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rjJyO1gN15FqjKmklT74nNzI3ec",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9gGnTQTYNaE"
+            },
+            "snippet": {
+                "publishedAt": "2021-07-14T14:07:15Z",
+                "channelId": "UCKWaEZ-_VweaEx1j62do_vQ",
+                "title": "What is Machine Learning?",
+                "description": "Learn about watsonx: https://ibm.biz/BdvxRR What is Machine Learning and how do businesses leverage it today? How does ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9gGnTQTYNaE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9gGnTQTYNaE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9gGnTQTYNaE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "IBM Technology",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-07-14T14:07:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lfdzlIQFANgGPXSIh4___fgQeek",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Fa_V9fP2tpU"
+            },
+            "snippet": {
+                "publishedAt": "2024-11-27T21:26:58Z",
+                "channelId": "UCktMIWomeuj4pwvBb-OBwMw",
+                "title": "All Machine Learning Concepts Explained in 22 Minutes",
+                "description": "All Basic Machine Learning Terms Explained in 22 Minutes ######################################### I just started my ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Fa_V9fP2tpU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Fa_V9fP2tpU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Fa_V9fP2tpU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Infinite Codes",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-11-27T21:26:58Z"
+            }
+        }
+    ]
+}
