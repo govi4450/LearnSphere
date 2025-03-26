@@ -1,6 +1,27 @@
-const apiKey = "AIzaSyDmlFU86ydq5734N5P_55KeYgKnJHj1GTY"; 
+const apiKey = "AIzaSyDmlFU86ydq5734N5P_55KeYgKnJHj1GTY";
 const backendUrl = "http://127.0.0.1:5000";  // Flask backend URL
 
+// Dark Mode Toggle Functionality
+document.addEventListener("DOMContentLoaded", () => {
+    const darkModeToggle = document.getElementById("darkModeToggle");
+
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        darkModeToggle.checked = true;
+    }
+
+    darkModeToggle.addEventListener("change", () => {
+        if (darkModeToggle.checked) {
+            document.body.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "enabled");
+        } else {
+            document.body.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "disabled");
+        }
+    });
+});
+
+// Function to Fetch YouTube Videos
 async function fetchVideos(topic) {
     const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&q=${encodeURIComponent(topic)}&maxResults=5&key=${apiKey}`;
 
@@ -20,36 +41,36 @@ async function fetchVideos(topic) {
     }
 }
 
+// Function to Display Videos
 function displayVideos(videos, stats) {
     let container = document.getElementById("videoList");
     container.innerHTML = "";
 
-    videos.forEach((video, index) => {
+    videos.forEach((video) => {
         let videoId = video.id.videoId;
         let statsInfo = stats.find(stat => stat.id === videoId)?.statistics || {};
         let likes = statsInfo.likeCount || "N/A";
         let views = statsInfo.viewCount || "N/A";
 
-        let li = document.createElement("li");
-        li.innerHTML = `
-            <div style="display: flex; align-items: center; gap: 10px;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
-                <div>
-                    <p><strong>Likes:</strong> ${likes}</p>
-                    <p><strong>Views:</strong> ${views}</p>
-                    <button onclick="summarizeVideo('${videoId}', this)">Summarize</button>
-                    <button onclick="viewSummary('${videoId}')">View Summary</button>
-                    <ul id="summary-${videoId}" style="margin-top:10px; font-style:italic; color:#333;"></ul>
-                </div>
-            </div>
+        let div = document.createElement("div");
+        div.classList.add("video-card");
+
+        div.innerHTML = `
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" frameborder="0" allowfullscreen></iframe>
+            <p><strong>Likes:</strong> ${likes} | <strong>Views:</strong> ${views}</p>
+            <button onclick="summarizeVideo('${videoId}', this)">Summarize</button>
+            <button onclick="viewSummary('${videoId}')">View Summary</button>
+            <ul id="summary-${videoId}" class="summary-list"></ul>
         `;
-        container.appendChild(li);
+
+        container.appendChild(div);
     });
 }
 
+// Summarize Video
 async function summarizeVideo(videoId, button) {
     let summaryList = document.getElementById(`summary-${videoId}`);
-    summaryList.innerHTML = "<li>Checking for saved summary...</li>";
+    summaryList.innerHTML = "<li>loading...</li>";
     button.disabled = true;
 
     try {
@@ -69,21 +90,23 @@ async function summarizeVideo(videoId, button) {
     }
 }
 
+// View Summary Page
 function viewSummary(videoId) {
     localStorage.setItem("lastTopic", document.getElementById("searchQuery").value);
     window.location.href = `summary.html?video_id=${videoId}`;
 }
 
+// Fetch Recommendations
 function getRecommendations() {
     let topic = document.getElementById("searchQuery").value;
-    
+
     if (topic) {
         localStorage.setItem("lastTopic", topic);
         fetchVideos(topic);
     }
 }
 
-// Restore previous search topic & videos when returning
+// Restore Previous Search & Videos When Returning
 window.onload = function() {
     let savedTopic = localStorage.getItem("lastTopic");
     if (savedTopic) {

@@ -116,5 +116,102 @@
     "cuciCYhTq3Y": [
         "- This guy is pushing the boundaries of color theory using just red yellow and blue he's on a mission to create white you won't believe which color he uses to mix and make white.",
         "- After making white he's creating another color by mixing the original redyellow and blue with the color he just made keep watching to see how many colors he can create with just those [Music] colors let me know if you're amazed subscribe if you appreciate his work."
+    ],
+    "q71NZKwBnPg": [
+        "- sas stands for the synthetically awesome style sheet is a css pre-compiler that allows you to write codes or css code that's similar to regular programming languages like javascript.",
+        "- It structures your code using functions mixins nested attributes variables that are properly defined.",
+        "- It makes life of writing cs a little bit more balanced and actually making you have fun while writing css so without wasting much time let's get started.",
+        "- Style.scss is a file that's going to be stored within the scss folder we also go ahead and create another file called style.script.",
+        "- Within the distributed folder all changes we make to the style.",
+        "- scss will be saved and will be outputted to the css folder.",
+        "- We can easily reference pseudoproperties of an element for example the hoover property of the a tag by using an ampersand and the pseudo element.",
+        "- We're going to create a partial chord function.",
+        "- that around the website and if we give the spy with an id of one to extend the border prop is going to inherit all the properties or declarations that within that border design regardless of the fact that by inheriting one section of the border design we can also overwrite it.",
+        "- We're also creating a mixing within the function.scss and we're giving it a name of transform this example was pulled off directly from the sars website."
+    ],
+    "jUZzAUuMHVI": [
+        "- This video is brought to you by deaf mountain coding boot camp if you guys are trying to get into software development iOS development software QA and other stuff check out the link in the description tab below they are offering courses you can actually live on campus over there they are hooked up with employers around the country around the world really and they're gonna help you try to find your first job in this industry.",
+        "- Sass is a CSS preprocessor language and really the most popular one that's used by the most companies.",
+        "- To actually get started with sass all you have to do is have node installed so you have NPM the package manager and you're gonna say install so I'm still typing with ten stitches in my hand and then - g4 global and then just type in sass and that's gonna this is the easiest way just to get started.",
+        "- The variables alone give CSS a lot more power so again all these pre processor processor languages are very similar in nature.",
+        "- You're gonna find similar functionality in all of them so now in order to actually use that compile to compile that that sass file we're gonna go to the directory where it's located and you just say sass - - watch and then the name of the file you actually want to watch which is test is CSS.",
+        "- Sass has the ability to have functions that take in a value and spit back all the different styles and everything that you're gonna end up applying.",
+        "- It also has this extends functionality so again you could have some team that's like saying what are all the common age ones look like so we're gonna say like a common h1 this is the name of our shared and we can go ahead and give it a few things like font family.",
+        "- CSS preprocessor languages are worth learning in 2019 I definitely do I think depending on whatever sort of profession you're in you may or may not actually deal with it.",
+        "- Some of the downsides to sass is that you used to have to download like Ruby and install Ruby to use compass to compile it and a lot of people are like screw that and you have companies that don't want to deal with that sort of overhead things like that."
+    ],
+    "6M5VXKLf4D4": [
+        "- Deep learning is a type of machine learning inspired by the structure of the human brain.",
+        "- It is a subset of artificial intelligence which is a technique that enables a machine to mimic human behavior.",
+        "- The features are picked out by the neural network without human intervention.",
+        "- Where is deep learning applied in customer support when most people converse with customer support agents the conversation seems so real they don't even realize that it's actually a bot.",
+        "- Deep learning is the most efficient way to deal with unstructured data a neural network requires a massive volume of data to train.",
+        "- neural networks detect cancer cells and analyze mri images to give detailed results self-driving cars what seem like science fiction is now a reality.",
+        "- horus technology working on a device for the blind that uses deep learning with computer vision to describe the world to the users replicating the human mind at the entirety."
+    ],
+    "FZmR_m0KuC8": [
+        "The transcript is too short to summarize."
+    ],
+    "aircAruvnKk": [
+        "- In this video, we look at how a neural network can learn to recognize handwritten digits.",
+        "- In the next, we'll look at the structure of the network, and how it's used to learn.",
+        "- We'll also look at some of the more powerful modern variants of neural networks.",
+        "- And at the end of the two videos I want to point you to a couple good resources where you can learn more, and download the code that does this.",
+        "- neural networks are inspired by the brain, but let's break that down.",
+        "- What are the neurons, and in what sense are they linked together?",
+        "- Right now when I say neuron all I want you to think about is a thing that holds a number, specifically a number between 0 and 1.",
+        "- For example the network starts with a bunch of neurons corresponding to each of the 28x28 pixels of the input image.",
+        "- When you or I recognize digits, we piece together various components.",
+        "- A 9 has a loop up top and a line on the right.",
+        "- An 8 also has aloop up top, but it's paired with another loop down low.",
+        "- A 4 basically breaks down into three specific lines, and things like that.",
+        "- In a perfect world, we might hope that each neuron in the second to last layer corresponds with one of these subcomponents.",
+        "- The goal is to have some mechanism that could conceivably combine pixels into edges, or edges into patterns, or patterns into digits.",
+        "- To zoom in on one very specific example, let's say the hope is for one particular neuron in the second layer to pick up on whether or not the image has an edge in this region here.",
+        "- The question at hand is what parameters should the network have?",
+        "- What dials and knobs should you be able to tweak?",
+        "- With this hidden layer of 16 neurons, that's a total of 784 times 16 weights, along with 16 biases.",
+        "- The weights tell you what pixel pattern this neuron in the second layer is picking up on, and the bias tells you how high the weighted sum needs to be before the neuron starts getting meaningfully active.",
+        "- All said and done, this network has almost exactly 13,000 total weights and biases.",
+        "- The entire network is just a function, one that takes in 784 numbers as an input and spits out 10 as an output.",
+        "- It's an absurdly complicated function that involves 13,000 parameters.",
+        "- How does this network learn the appropriate weights and biases just by looking at data?",
+        "- In the next video, I'll also dig a little more into what this particular network we're seeing is really doing.",
+        "- Lisha Li did her PhD work on the theoretical side of deep learning.",
+        "- She currently works at a venture capital firm called Amplify Partners.",
+        "- They kindly provided some of the funding for this video.",
+        "- Lisha: I'm jumping back into it after this project, so patrons you can look out for updates there.",
+        "- in the probability series this summer, but I'll be back in the fall."
+    ],
+    "M988_fsOSWo": [
+        "- Cloud computing refers to the delivery of on-demand computing services over the internet on a pay-as-you-go basis.",
+        "- On-premise systems need a lot of space for their servers notwithstanding the power and maintenance hassles that come with them.",
+        "- Cloud computing solutions are offered by cloud service providers who manage and maintain the servers saving you both money and space.",
+        "- A hybrid cloud is a combination of the functionalities of both public and private clouds.",
+        "- There are three major service models available es pass and sas compared to on-premise models where you'll need to manage and maintain every component including applications data virtualization and middleware cloud computing service models are hassle-free.",
+        "- Let us know your answer in the comments section below for a chance to win an amazon voucher coming back to cloud computing some of the most popular cloud computing services in the market are aws or amazon web services microsoft azure and google cloud platform."
+    ],
+    "_a6us8kaq0g": [
+        "- The term cloud computing refers to data and applications being stored and run on the cloud rather than being stored on your local computer or on any equipment that you own.",
+        "- So the workload is no longer on your computer, but on a cloud.",
+        "- What is the cloud?",
+        "- The cloud is just a big building that's filled with computers.",
+        "- The companies that own these clouds are called cloud providers and their purpose is to sell their computers as a service.",
+        "- With cloud computing a person or company eliminates a lot of the expense of buying their own hardware and software, along with the building maintenance and electricity it takes to run their own data center.",
+        "- Another reason is reliability.",
+        "- When you hire a cloud, the cloud provider is responsible for all of the data backup and disaster recovery.",
+        "- And if one of its data centers goes down, they will also have several redundant sites as a backup which will ensure that there is no downtime.",
+        "- There are three types of cloud services: infrastructure as a service, platform as aService, and software as a Service.",
+        "- Infrastructure as aservice allows the cloud provider to manage a portion of your business.",
+        "- Platform as a services allows the user to decide what suits their needs.",
+        "- Software as a Services allows you to access and run applications from your computer when you connect to the cloud service through the internet."
+    ],
+    "kjBOesZCoqc": [
+        "- linear algebra is one of those subjects that's required knowledge for just about any technical discipline.",
+        "- There's a fundamental difference between understanding linear algebra on a numeric level and understanding it on a geometric level.",
+        "- If you learn linear algebra without getting a solid foundation in that geometric understanding, the problems can go unnoticed for a while until you've gone deeper into whatever field you happen to pursue, whether that's computer science, engineering, statistics, or even math itself.",
+        "- The goal is to create a short, binge-watchable series animating those intuitions from the basics of vectors up through the core topics that make up the essence of linear algebra.",
+        "- I'll put out one video per day for the next five days, then after that put out a new chapter every one to two weeks.",
+        "- I also hope this can be a resource for educators who are teaching courses that assume fluency with linear algebra, giving them a place to direct students."
     ]
 }
